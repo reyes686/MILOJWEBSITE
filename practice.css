@@ -1,0 +1,44 @@
+#grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* creates 3 equal columns */
+    gap: 16px;
+    padding: 16px;
+    box-sizing: border-box;
+}
+
+/* Prevent images from overflowing their grid cell */
+.grid-item img {
+    max-width: 100%;
+    display: block;
+}
+
+
+body {
+     background: url('https://www.milojota.com/dist/img/sticky-bg.jpg');
+}
+
+#Milo_J {
+    font-family: "norman-variable", sans-serif;
+font-variation-settings: "wght" 500;
+font-size:3em;
+text-align: center;
+
+height: 200px;
+width: 300px;
+background-color: rgb(215, 159, 18);
+}
+
+.grid-item {
+    padding: 16px;
+    color: rgb(253, 253, 253);
+    letter-spacing: -1px;
+}
+
+
+#DIJElavidaeramascorta {
+    margin-top: 450px;
+}
+
+#albums {
+    font-size: 30px;
+}
